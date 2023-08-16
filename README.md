@@ -342,7 +342,7 @@ Most applications will handle an OAuth callback using a special route/page, sepa
       **It’s important that no other app logic runs until the async parseFromUrl / token manager logic is complete**
 3. After this, continue normal app logic
 
-```
+```javascript
 
 async function main() {
   // create OktaAuth instance
